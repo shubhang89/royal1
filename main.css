@@ -1,0 +1,328 @@
+#navbar {
+    overflow: hidden;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: black;
+}
+
+#navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+#navbar .first img {
+    width: 75%;
+    margin-left: 25px;
+}
+
+#navbar .middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin-right: 80px;
+}
+
+#navbar .middle .dropbtn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    transition: .5s;
+    font-weight: 550;
+}
+
+#navbar .middle :hover .dropbtn {
+    color: red;
+}
+
+#navbar .last .sub1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+#navbar .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+#navbar .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar .dropdown-content {
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#navbar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar .sub2 input {
+    width: 230px;
+    margin-top: 15px;
+    height: 25px;
+}
+
+
+/*---------------------- end main nav bar -----------------------*/
+
+.location {
+    height: 50px;
+    background-color: rgb(197, 196, 196);
+    display: flex;
+    align-items: center;
+}
+
+.location a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+/* ----------------------------------------------------sub nav ------------------------------*/
+.nav {
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+}
+
+.nav .first img {
+    width: 75%;
+    margin-left: 25px;
+}
+
+.nav .middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin-right: 80px;
+}
+
+.nav .middle .dropbtn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: red;
+}
+
+.nav .last .sub1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.last .sub2 input {
+    border: 1px solid white;
+    width: 210px;
+    border-radius: 29px;
+    margin-left: 100px;
+}
+
+.last .sub2 ::placeholder {
+    text-align: center;
+    font-size: 10px;
+    color: rgb(133, 130, 130);
+}
+
+.last .sub1 a {
+    text-decoration: none;
+    color: aquamarine;
+    background-color: black;
+}
+
+.last .sub1 img {
+    width: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+/*--------------------------------- nav bar end -----------------------------------------------*/
+
+.pic img {
+    width: 100%;
+}
+
+.firs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.firs .sub1 {
+
+    margin-left: 20px;
+    height: 100%;
+}
+
+.firs .sub2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.firs .p9 {
+    color: red;
+    font-size: 30px;
+    width: 250px;
+    font-weight: 600;
+}
+
+.firs a {
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.firs :hover a {
+    color: red;
+}
+
+.ad {
+    margin-left: 25%;
+}
+
+.black {
+    border: 1px solid black;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgb(32, 32, 32);
+}
+
+.black p {
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+.black :hover p {
+    color: red;
+}
+
+.black img {
+    width: 50px;
+}
+
+.black a {
+    text-decoration: none;
+}
+
+/* join us */
+.sec {
+    width: 20%;
+    float: right;
+    justify-content: space-between;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec img {
+    margin-top: 10px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer .f1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.footer .f2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+}
+
+.footer .f3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.footer .f4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+/* copyright */
+.copy {
+    height: 30px;
+    text-align: center;
+    background-color: rgb(202, 218, 218);
+    word-spacing: 5px;
+}
