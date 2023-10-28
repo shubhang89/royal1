@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Royal Enfield</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-------------------------------------------- Nav bar ----------------------------------------------------->
+    <div id="navbar">
+        <div class="first">
+            <img src="logo.svg" alt="logo">
+        </div>
+
+
+        <div class="middle">
+            <div class="dropdown">
+                <a href="ownre.html"><button class="dropbtn">OWN A ROYAL ENFIELD</button></a>
+
+
+                <div class="dropdown-content">
+                    <a href="about/himalayan/abt_hima.html">Himalayan</a>
+                    <a href="about/meteor/abt_meteor.html">Meteor</a>
+                    <a href="about/classic 350/abt_classic.html">Classic 350</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="accessories.html">
+                    <button class="dropbtn">ACCESSORIES</button>
+                </a>
+                <div class="dropdown-content">
+                    <a href="hima_acc.html">Himalayan</a>
+                    <a href="met_acc.html">Meteor</a>
+                    <a href="classic_acc.html">Classic 350</a>
+                </div>
+            </div>
+
+
+            <div class="dropdown">
+                <a href="gears.html">
+                    <button class="dropbtn">RIDING GEARS</button>
+                </a>
+                <div class="dropdown-content">
+                    <a href="helmet.html">Helmet</a>
+                    <a href="jacket.html">Jacket</a>
+                    <a href="pant.html">Riding Pant</a>
+                    <a href="gloves.html">Gloves</a>
+                    <a href="shoes.html">Shoes</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="last">
+            <div class="sub2">
+                <input id="textbox" type="text" placeholder="Search"
+                    onkeydown="if (event.keyCode == 13 || event.which == 13) { location='http://www.google.com/search?q=' + encodeURIComponent(document.getElementById('textbox').value);}" />
+            </div>
+
+            <div class="sub1">
+                <a href="buttons/test ride/test.html">Book a Test Ride</a>
+                <a href="buttons/login/login.html">LOGIN</a>
+                <a href="#">India &#8595; </a>
+            </div>
+        </div>
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+
+    </div>
+
+    <!---------------------------------------- end of nav bar -------------------------------------------->
+
+    <!------------------- location --------------------->
+    <div class="location">
+        <a href="#"> >> Home</a>
+    </div>
+
+    <!------------------------------------------- picture ------------------------------------------------>
+    <div class="pic">
+        <img src="scram-411.jpg" alt="bike pic">
+    </div>
+
+
+    <!-------------------------------------------- bikes -------------------------------------------------->
+    <div class="nav">
+        <div class="firs">
+            <div class="sub1">
+                <p class="p9">MOTORCYCLE</p>
+            </div>
+            <div class="sub2">
+                <a href="#">Himalayan</a>
+                <a href="#">Meteor</a>
+                <a href="#">Classic 350</a>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------- bike pic------------------------------------------>
+    <img src="Himalayan/Dune brown/side-view.webp" class="ad" width="50%">
+
+    <!---------------------------------------- Accessories -------------------------------------------------->
+    <div class="nav">
+        <div class="firs">
+            <div class="sub1">
+                <p class="p9">Riding Gears</p>
+            </div>
+            <div class="sub2">
+                <a href="#">Helmet</a>
+                <a href="#">Jacket</a>
+                <a href="#">Riding Pant</a>
+                <a href="#">Gloves</a>
+                <a href="#">Shoes</a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------- Accessories pic ------------------------------------------------>
+    <img src="helmet.jpg" class="ad" width="40%">
+
+    <!-------------------------------------------- 4 slots  ---------------------------------------->
+
+    <div class="black">
+        <div class="a1">
+            <a href="buttons/test ride/test.html">
+                <img src="test.jpg" alt="test ride">
+                <p>Book a Test Ride</p>
+            </a>
+        </div>
+        <div class="a2">
+            <a href="buttons/find store/store.html">
+                <img src="store.jpg" alt="shop">
+                <p>Find a Store</p>
+            </a>
+        </div>
+        <div class="a3">
+            <img src="test.jpg" alt="ride">
+            <p>Ride Out</p>
+        </div>
+        <div class="a4">
+            <img src="service.jpg" alt="service">
+            <p>Book a Service</p>
+        </div>
+    </div>
+    <!----------------------------------------------join us section  --------------------- -->
+    <div class="sec">
+        <p>JOIN US:</p>
+        <a href="https://www.facebook.com/"><img src="fb.png" alt="facebook"></a>
+        <a href="https://twitter.com/?lang=en-in"> <img src="tw.png" alt="twitter"></a>
+        <a href="https://youtube.com/@shubhanggangolli4854"><img src="yt.svg" alt="youtube"></a>
+        <a href="https://instagram.com/shubhang_gangolli?igshid=YmMyMTA2M2Y="><img src="ig.png" alt="instagram"></a>
+    </div>
+
+
+    <!------------------------------------------------------- footer  ------------------------------------->
+    <div class="footer">
+
+        <div class="f1">
+            <h3>Motorcycle</h3>
+            <a href="#">Himalayan</a>
+            <a href="#">Meteor</a>
+            <a href="#">Classic 350</a>
+        </div>
+
+        <div class="f2">
+            <h3>Support</h3>
+            <a href="#">Service Centres</a>
+            <a href="#">Owner's Manual</a>
+            <a href="#">Become a Delaer</a>
+            <a href="#">Parts Distributor</a>
+        </div>
+
+        <div class="f3">
+            <h3>About Us</h3>
+            <a href="#">Since 1901</a>
+            <a href="#">Eicher Motors</a>
+        </div>
+
+        <div class="f4">
+            <h3>Our World</h3>
+            <a href="#">Royal Enfield App</a>
+            <a href="#">News and Media</a>
+            <a href="#">Wallpapers</a>
+        </div>
+
+    </div>
+    <br>
+
+    <!-------------------------------- Copyrights---------------------- ----------------------------->
+    <div class="copy">
+        <p>© 2023. Shubhang Gangolli. | *T&C apply. Images shown here may differ from the actual product.</p>
+    </div>
+
+
+
+    <!--  -->
+
+    <!--  -->
+
+</body>
+
+</html>
