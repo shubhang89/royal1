@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(179, 178, 176);
+}
+
+h3 {
+    color: red;
+    font-size: 40px;
+}
+
+.logodiv {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 55px;
+    margin-top: -60px;
+    margin-right: 75px;
+    cursor: pointer;
+}
+
+.col1 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col2 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col3 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row1,
+.row2,
+.row3 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------- */
+
+.location{
+    height: 50px;
+    background-color: rgb(197, 196, 196);
+    display: flex;
+    align-items: center;
+}
+.location a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+/* ------------------------------------------ */
+
+
+img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h4 {
+    text-align: center;
+    color: brown;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+p {
+    text-align: center;
+    margin-top: -10px;
+}
+
+sup {
+    color: orangered;
+}
